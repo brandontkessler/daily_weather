@@ -73,6 +73,7 @@ class Weather:
             f"Sunset: {sunset}\n"
             "\n"
         )
+        print(f"######### TODAY ############")
         print(msg)
     
     def forecast(self, days=1):
